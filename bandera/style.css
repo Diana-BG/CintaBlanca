@@ -1,0 +1,76 @@
+.cuadro {
+    background-color: white;
+    border: 2px solid black;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right; 
+    align-items: flex-end;
+}
+
+
+.linea {
+    margin-left: 150px;
+    background-color: white;
+    border: 2px solid black;
+    height: 400px;
+    width: 80px;
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right; 
+    align-items: flex-start;
+}
+
+
+.lineablue {
+    margin-left: 150px;
+    background-color: rgb(20, 59, 131);
+    border: 2px solid black;
+    height: 400px;
+    width: 80px;
+    position: fixed;   
+}
+
+.linea2 {
+    border: 2px solid rgb(8, 8, 8);
+    height: 200px;
+    width: 300px;
+}  
+
+.linea3 {
+    margin-top: 155px;
+    background-color: white;
+    border: 2px solid black;
+    height: 400px;
+    width: 430px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: left; 
+    align-items: flex-end;
+}
+
+.linea4 {
+    margin-top: 155px;
+    order: 2px solid black;
+    background-color: rgb(245, 27, 11);
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: right; 
+    align-items: normal;
+}
+
+.linea5 {
+    margin-top: 155px;
+    order: 2px solid black;
+    background-color: rgb(245, 27, 11);
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left; 
+    align-items: stretch;
+}
